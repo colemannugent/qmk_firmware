@@ -24,13 +24,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xdead
 #define PRODUCT_ID      0xc0de
-#define DEVICE_VER      0x0002
+#define DEVICE_VER      0x0003
 #define MANUFACTURER    Coleman Nugent
 #define PRODUCT         Satan GH60
 #define DESCRIPTION     Colemans Custom Satan GH60
 
-// Enable backlight breathing
+// Backlight settings
 #define BACKLIGHT_BREATHING
+#define BACKLIGHT_LEVELS 5
 
 
 #endif
